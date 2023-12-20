@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+<div class="top-bar bg-secondary-subtle">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <p class="m-0">Super Value Deals - Save more with coupons</p>
+            </div>
+            <div class="col-12 col-md-6 ">
+                <div class="dropdown d-flex justify-content-end">
+                    <p class="dropdown-toggle m-0" data-bs-toggle="dropdown" aria-expanded="false">
+                        English
+                    </p>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">VietNam</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="banner mt-4 ">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <a class="navbar-brand" href="#">
+                    <img src="images/freshcart-logo.svg" alt="Bootstrap" width="160">
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="row g-3">
+                    <div class="col-12 col-md-8">
+                        <label for="search-input" class="visually-hidden">Search</label>
+                        <input type="text" class="form-control" id="search-input" placeholder="Search">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <button type="button" class="btn btn-outline-secondary mb-3">Location</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 d-flex justify-content-end">
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item border border-0 position-relative">
+                        <i class="fa-regular fa-heart"></i>
+                        <span class="position-absolute top-1 start-70 translate-middle badge rounded-pill bg-success">
+                            9
+                        </span>
+                    </li>
+                    <li class="list-group-item border border-0">
+                        <i class="fa-regular fa-user"></i>
+                    </li>
+                    <li class="list-group-item border border-0">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="menu">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="btn btn-success navbar-brand text-white" href="#">
+                    <i class="fa-solid fa-list"></i>
+                    All Departments
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                               aria-expanded="false">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                               aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                               aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+</section>
+<hr class="m-0">
+<section class="your-order-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3 border-end">
+                <div class="list-group pt-4 border-0" style="width: 70%">
+                    <a href="account-orders.html" class="list-group-item  list-group-item-action border-0" aria-current="true">
+                        <i class="fa-solid fa-bag-shopping"></i> Your Order
+                    </a>
+                    <a href="setting.html" class="list-group-item  list-group-item-action  border-0"><i
+                            class="fa-solid fa-gear"></i> Setting</a>
+                    <a href="#" class="list-group-item list-group-item-action border-0"><i
+                            class="fa-solid fa-location-dot"></i> Address</a>
+                    <a href="#" class="list-group-item list-group-item-action border-0"><i
+                            class="fa-brands fa-cc-paypal"></i> Payment method</a>
+                    <a href="notification.html" class="list-group-item list-group-item-action bg-black active border-0"><i class="fa-solid fa-bell"></i>
+                        Notification</a>
+                    <hr>
+                    <a href="#" class="list-group-item list-group-item-action border-0" tabindex="-1"
+                       aria-disabled="true"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-9 ps-5">
+                <h2 class="mt-4 mb-4">Notification settings</h2>
+                <h5>Email Notifivations</h5>
+                <hr>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-10">
+                        <h6>Weeklys Notification</h6>
+                        <p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose .</p>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="form-check form-switch">
+                            <input style="font-size: 20px" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault1">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-10">
+                        <h6>Account Summary</h6>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis eguris eu sollicitudin massa. Nulla ipsum odio, aliquam in odio et, fermentum blandit nulla.</p>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="form-check form-switch">
+                            <input style="font-size: 20px" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <h3>Order updates</h3>
+                <hr>
+                <br>
+                <div class="row">
+                    <div class="col-12 col-md-10">
+                        <h6>Text messages</h6>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="form-check form-switch">
+                            <input style="font-size: 20px" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault2">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-10">
+                        <h6>Call before checkout</h6>
+                        <p>We'll only call if there are pending changes</p>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="form-check form-switch">
+                            <input style="font-size: 20px" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault3">
+                            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <h3>Website Notification</h3>
+                <hr>
+                <br>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        New follower
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked>
+                    <label class="form-check-label" for="flexCheckChecked1">
+                        Post like
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2" checked>
+                    <label class="form-check-label" for="flexCheckChecked2">
+                        Someone you followed posted
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked3" checked>
+                    <label class="form-check-label" for="flexCheckChecked3">
+                        Post added to collection
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked4" checked>
+                    <label class="form-check-label" for="flexCheckChecked4">
+                        Order Delivery
+                    </label>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="mt-5 col-12 col-md-4">
+                <h6>Categories</h6>
+            </div>
+            <div class="mt-5 col-12 col-md-2">
+                <h6>Get to know us</h6>
+            </div>
+            <div class="mt-5 col-12 col-md-2">
+                <h6>For Consumers</h6>
+            </div>
+            <div class="mt-5 col-12 col-md-2">
+                <h6>Become a Shopper</h6>
+            </div>
+            <div class="mt-5 col-12 col-md-2">
+                <h6>Freshcart programs</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-2">
+                <a href="" class="hihi">Vegetables & Fruits</a><br>
+                <a href="" class="hihi">Breakfast & instant food</a><br>
+                <a href="" class="hihi">Bakery & Biscuits</a><br>
+                <a href="" class="hihi">Atta, rice & dal</a><br>
+                <a href="" class="hihi">Sauces & spreads</a><br>
+                <a href="" class="hihi">Organic & gourmet</a><br>
+                <a href="" class="hihi">Baby care</a><br>
+                <a href="" class="hihi">Cleaning essentials</a><br>
+                <a href="" class="hihi">Personal care</a><br>
+            </div>
+            <div class="col-6 col-md-2">
+                <a href="" class="hihi">Dairy, bread & eggs</a><br>
+                <a href="" class="hihi">Cold drinks & juices</a><br>
+                <a href="" class="hihi">Tea, coffee & drinks</a><br>
+                <a href="" class="hihi">Masala, oil & more</a><br>
+                <a href="" class="hihi">Chicken, meat & fish</a><br>
+                <a href="" class="hihi">Paan corner</a><br>
+                <a href="" class="hihi">Pharma & wellness</a><br>
+                <a href="" class="hihi">Home & office</a><br>
+                <a href="" class="hihi">Pet care</a><br>
+            </div>
+            <div class="col-6 col-md-2">
+                <a href="" class="hihi">Company</a><br>
+                <a href="" class="hihi">About</a><br>
+                <a href="" class="hihi">Blog</a><br>
+                <a href="" class="hihi">Help Center</a><br>
+                <a href="" class="hihi">Our Value</a><br>
+            </div>
+            <div class="col-6 col-md-2">
+                <a href="" class="hihi">Payments</a><br>
+                <a href="" class="hihi">Shipping</a><br>
+                <a href="" class="hihi">Product Returns</a><br>
+                <a href="" class="hihi">FAQ</a><br>
+                <a href="" class="hihi">Shop Checkout</a><br>
+            </div>
+            <div class="col-6 col-md-2">
+                <a href="" class="hihi">Shopper Opportunities</a><br>
+                <a href="" class="hihi">Become a Shopper</a><br>
+                <a href="" class="hihi">Earnings</a><br>
+                <a href="" class="hihi">Ideas & Guides</a><br>
+                <a href="" class="hihi">New Retailers</a><br>
+            </div>
+            <div class="col-6 col-md-2">
+                <a href="" class="hihi">Freshcart programs</a><br>
+                <a href="" class="hihi">Gift Cards</a><br>
+                <a href="" class="hihi">Promos & Coupons</a><br>
+                <a href="" class="hihi">Freshcart Ads</a><br>
+                <a href="" class="hihi">Careers</a><br>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="d-flex justify-content-between">
+                <div class="col-12 col-md-5 uio">
+                    <div class="uio1"><h6>Payment Partners</h6></div>
+                    <div class="uio2">
+                        <img src="https://freshcart.codescandy.com/assets/images/payment/amazonpay.svg" alt="">
+                        <img src="https://freshcart.codescandy.com/assets/images/payment/american-express.svg" alt="">
+                        <img src="https://freshcart.codescandy.com/assets/images/payment//mastercard.svg" alt="">
+                        <img src="https://freshcart.codescandy.com/assets/images/payment/paypal.svg" alt="">
+                        <img src="https://freshcart.codescandy.com/assets/images/payment/visa.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-1"></div>
+                <div class="col-12 col-md-6 d-flex justify-content-end iop">
+                    <div class="iop1"><h6 class="ho">Get deliveries with FreshCart</h6></div>
+                    <div class="iop2">
+                        <img class="ho" src="https://freshcart.codescandy.com/assets/images/appbutton/appstore-btn.svg" alt="">
+                        <img class="ho" src="https://freshcart.codescandy.com/assets/images/appbutton/googleplay-btn.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="tutu">
+                <div class="col-12 col-md-8 tutu1">
+                    <p>© 2022 - 2023 FreshCart eCommerce HTML Template. All rights reserved. Powered by Codescandy .</p>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-end tutu2">
+                    <p>Follow us on</p>
+                    <a href="" class="uu"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="uu"><i class="bi bi-twitter"></i></a>
+                    <a href="" class="uu"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
